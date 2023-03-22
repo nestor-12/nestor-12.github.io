@@ -25,8 +25,132 @@ html, body {
    display: flex;
    flex-direction: column;
    min-width: var(--min-width);
-   background-image: url('../HTMLS/maxresdefault.jpg');
+   background-image: url('../img/background_01.jpg');
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
+   transition: background-image 0.7s ease-in-out;
+}
+
+.header, .content, .footer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: var(--max-width);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.logo img {
+    margin-right: .5rem;
+}
+
+.menu {
+    margin: 0;
+}
+
+.menu-list_item  {
+    display: inline-block;
+    margin: 0 .5rem;
+    font-size: 24px;
+}
+
+.menu-list_item:last-child {
+    margin-right: 0;
+}
+
+.book-appointment {
+    background-color: var(--accent-color);
+    padding: 1rem 2rem;
+    font-size: 24px;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.slideButton {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.prevSlide {
+  left:  -2rem;
+}
+
+.nextSlide {
+    right: -3rem;
+}
+
+.content-clain {
+    font-size: 64px;
+    color: var(--accent-color);
+    margin: 0;
+}
+
+.content-subclain {
+    font-size: 36px;
+    margin: .5rem 0;
+    margin-bottom: 2rem;
+}
+
+.footer-wrapper {
+    background-color: black;
+}
+
+.footer {
+    display:  flex;
+    justify-content: space-between;
+}
+
+.footer_widget {
+    font-size: 24px;
+}
+
+.footer_widget_title {
+    color: var(--accent-color);
+    margin: 0 0 1rem 0;
+}
+
+.footer_widget_text {
+    margin: 0;
+}
+
+@media screen and (max-width: 1280px){
+    .header, .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+   
+    .content {
+        align-items: center;
+    }
+
+    .menu {
+        margin-top: 1.5rem;
+    }
+
+    .footer-widget {
+        margin-bottom: 1rem;
+    }
 }
