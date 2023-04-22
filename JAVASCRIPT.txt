@@ -1,0 +1,29 @@
+sentencias de bloque,control de flujo y manejo de excepciones 
+
+|SWITCH|=
+sintanxis y clausula case
+break
+default
+
+|excepciones y tipos de excepciones|=
+
+defincion y usos
+excepciones ECMAScript
+DOMException y DOMError
+
+|Try... Catch|=
+
+sintaxis
+objeto error
+catch Incondicional
+Catch Condicional
+Sentencia Throw
+
+Error
+SyntaxError
+ReferenceError
+InternalError
+EvalError
+RangeError
+TypeError
+URIError

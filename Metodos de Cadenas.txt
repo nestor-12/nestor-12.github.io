@@ -1,0 +1,54 @@
+|Metodos de Cadenas|=
+
+concat
+startSwitch
+endswitch
+includes
+indexOF
+iastIndexOf
+
+padStart
+padEnd
+repeat
+
+split
+substring
+toUpperCase
+toLowerCase
+tostring
+trim
+trimEnd
+trimStart
+
+|metodos transformadores|=
+
+pop
+shift
+push
+reverse
+unshift
+sort
+splice (remplaza)
+
+|Accesores|=
+
+join
+slice
+metodos ya vistos = tostring , indexoof , lastindexof , includes.
+
+|De Repetición|=
+
+filter
+forEach
+
+FILTER =
+
+let string = ["dog", "cat", "foldback", "stringfield"];
+///let string two for this array..
+
+resultado = string.filter (numero => numero.length > 4 )
+document.write(resultado + "<br>");r
+
+FOREACH =
+
+resultado =string.forEach((numero)=>document.write(numero + " & "));

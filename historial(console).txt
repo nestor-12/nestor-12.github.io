@@ -1,0 +1,12 @@
+hacerlo desde la consola de google
+-history.back()
+-history.forward()
+-history.length(Tamaño del historial)
+-history.go() (va a un sitio indicado con un numero relativo)
+-history.pushState() (modifica URL y conserva info..)
+EJ = history.pushState({"nombre" : "ivan"},"","jajaja")
+-propiedad state y evento popState ,ej : el {"nombre": "ivan "}(state) y el popState es : 
+  addEventListener("popState", (e) => {
+         console.log(e.state)
+})
+-replaceState (modifica URL y no la conserva)  

@@ -1,0 +1,10 @@
+| expresion |
+1)const saludar = () > nombre = "pedro";
+2)const saludar = res =>  nombre = "pedro"; (puede ir asi tmb)
+resultado = saludar ();
+console.log(resultado)
+_____________________________
+|funcion/sentencia| 
+const saludar = () > {nombre = "pedro";}
+resultado = saludar ();
+console.log(resultado)

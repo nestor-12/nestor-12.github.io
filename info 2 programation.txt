@@ -1,0 +1,76 @@
+12 natural
+1.13113 decimal
+3,14 trascendental
+-1 entero
+3.11 real
+
+
+lista de numeros ordenados 
+
+
+entrada =  ( 8, 5, 6, )  | salida = ( 5, 6, 8 )
+
+8  5  7  3                     
+
+a1 a2 a3 a4 - a1 a2 a3 a4      a1 < a2 < a3 < a4   
+  
+                               3    5    7    8
+
+
+an  el an puede tomar un numero cualquiera es decir agarra el numero numero
+
+| display | :
+
+block
+inline
+
+inline-block
+table
+inline-table
+list-item
+table-cell
+table-row
+table-column
+
+GIRD
+
+
+block
+inline0
+
+inline-block
+
+grid
+flex
+
+inline-flex
+inline-grid
+
+alert {"saludar"}
+funcion saludar (name, surname, age, number) { console.log (name, " ", surname, " ", age, " ", number)}
+
+saludar ("Ivan", "Marchese", "21", "681974459")
+
+window.onload = function() {
+    document.getElementById("boton").addEventListener("click", sumar);
+    event.preventDefault
+ }
+ function sumar() {
+     var num1 = document.getElementById("num1").value;
+     var num2 = document.getElementById("num2").value;
+     var suma =  parseInt(num1) + parseInt(num2);
+     alert("la suma es: " + suma)
+     console.log(suma);
+ }
+       // #rgb  o-f
+    window.onload = function () {
+        document.getElementById("azul").onmouseenter = function(){ document.bgColor='0000ff';};
+        document.getElementById("verde").onmouseenter = function(){ document.bgColor='00ff00';};
+        document.getElementById("rojo").onmouseenter = function(){ document.bgColor='ff0000';};
+        
+        document.getElementById("azul").onmouseout = function(){ document.bgColor='01ffcc';};
+        document.getElementById("verde").onmouseout = function(){ document.bgColor='01ffcc';};
+        document.getElementById("rojo").onmouseout = function(){ document.bgColor='01ffcc';};
+    } 
+
+

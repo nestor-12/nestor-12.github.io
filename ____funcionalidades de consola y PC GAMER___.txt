@@ -1,0 +1,52 @@
+network 
+status 200 es que está cargando 
+status 404 es que no está cargando
+si  están con un - al final es que es la linea digamos pagina.jpg-84
+
+todas la paginas se guardas en un cache
+las cookies es la informacion que se almacena de la pág.. 
+
+se pueden blockear y eliminar las cookies ,eliminar el cache
+
+$0 podes ver lo de la pág 
+
+default levels
+
+todos
+logs
+verbose
+info
+warnings
+errors
+
+performance - performance monitor
+
+se requiere una PC con pantalla de resolución {full HD 1920x1080}
+procesador ryzen 9-7950x o intel core ¡9
+16GB o 32GB RAM
+Teclado QWERTY(NORMAL O RAZER)
+mouse RAZER 
+
+
+mostly 
+lately
+hoisting
+hosting
+availwidth
+snippets
+
+request
+transferred
+resources
+waterfall cascada
+path trayecto/camino
+scheme
+fetch
+
+event log
+raster thread hilo del trama
+summary
+rendering
+painting
+debugging
+

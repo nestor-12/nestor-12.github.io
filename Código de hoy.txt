@@ -1,0 +1,78 @@
+:root {
+    --max-width: 1280px;
+    --min-width:320px;
+    --accent-color:#00C2FF;
+}
+
+background-image: url('../img/background_01.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   transition: background-image 0.7s ease-in-out;
+
+margin: 0 .5rem;
+margin: .5rem 0;
+margin: 0 0 1rem 0;
+transform: translateY(-50%);
+
+@media screen and (max-width: 1280px){
+    .header, .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+   
+    .content {
+        align-items: center;
+    }
+
+    .menu {
+        margin-top: 1.5rem;
+    }
+
+    .footer-widget {
+        margin-bottom: 1rem;
+    }
+}
+flex-grow: 1;
+
+
+---------------------------------🪟✅--------------------------------------------
+
+// Define the images
+const images = [
+    'img/background_01.jpg',
+    'img/background_02.jpg',
+    'img/background_03.jpg',
+  ];
+  
+  // App state
+  let index = 0;
+  const max = images.length;
+  
+  // Get the DOM elements
+  const containerElement = document.querySelector('.container');
+  const prevSlideButton = document.querySelector('.prevSlide');
+  const nextSlideButton = document.querySelector('.nextSlide');
+  
+  // Listen for arrow click events
+  prevSlideButton.addEventListener('click', function () {
+    index--;
+    setImageIndex();
+    changeBackgroundImage(images[index], containerElement);
+  });
+  
+  nextSlideButton.addEventListener('click', function () {
+    index++;
+    setImageIndex();
+    changeBackgroundImage(images[index], containerElement);
+  });
+  
+  // Utility function
+  function setImageIndex() {
+    if (index < 0) index = max - 1;
+    if (index === max) index = 0;
+  }
+  
+  function changeBackgroundImage(backgroundImage, element) {
+    element.style.backgroundImage = `url(${backgroundImage})`;
+  }

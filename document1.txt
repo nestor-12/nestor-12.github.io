@@ -1,0 +1,122 @@
+flex-direction
+column
+cell
+table
+row
+
+justify content (x) 
+flex-start 
+flex-end
+center
+spacing-around
+spacing-between
+
+aligh-text (y)
+
+flex-start
+flex-end
+center
+
+list ordened=
+-ol
+-ul
+-li
+
+type list = 
+disc square circle 
+
+table=
+thead
+th
+td
+
+caption
+tr
+td
+tr colspan="5"
+
+&nbsp (para separar)
+
+pre
+code
+
+
+cm
+mm
+in
+pc
+pt
+px
+
+ch
+h1
+rem
+em
+vh
+vw
+vmin
+vmax
+
+address
+time
+datetime
+article
+paragraphic
+
+strike
+strong
+small
+marquee
+i
+u
+b
+s
+ruby
+
+type de input =
+datetime
+datetime-local
+email
+hidden
+month
+number
+password
+range
+reset
+search
+submit
+tel
+text
+time
+url
+week
+
+select
+multiple
+
+optgroup label "name"
+etc..
+
+mas elementos de html 
+progress
+meter
+file
+textarea 
+
+METER
+FILE
+
+SELECT OPTG OPT 
+
+THEAD
+TH
+
+CAPTION
+TR
+TD
+
+TFOOT
+TD
+
+
+WRB

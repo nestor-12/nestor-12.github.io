@@ -1,0 +1,34 @@
+Drag  & Drop
+#primero creamos 2 div en HTML,uno con clase circulo y otro con clase rectangulo, y luego le damos estilo con CSS..
+
+#es cómo keydown,keypress,keyup
+#mostrar por console o por alert.
+- Eventos del objeto
+    -dragstart () (apretar)
+    -drag () (mantener y arrastrar)
+    -dragend () (soltar)
+ 
+- Eventos de zona
+    -dragenter () (es cuando presionamos)
+    -dragover () (cuenta cuando entre al rectangulo)
+    -drop () (es cuando soltamos )
+    -dragleave (es cuando lo sacamos afuera del rectangulo)
+
+- Propiedad datatransfer
+    - getData () 
+    -setData ()
+
+en dragover utilizar el event.preventDefault ej:
+rectangulo.addEventListener("dragover",(e) => {
+ e.preventDefault();
+console.log(2)
+
+para setData/getData hacemos esto:
+
+circulo .addEventListener("dragstart",(e) =>  {
+     e.dataTransfer.setData("text-plain"),e.target.className
+     console.log(e.dataTransfer.getData("text-plain"))
+})
+}
+   
+- Ejemplo de uso (Texturizador)

@@ -1,0 +1,120 @@
+---------------------------------------------------------------------------------------
+|para darle color al parrafo correspondiente|=
+
+$(function() {
+
+      $("p").css ({"background-color": "red"});
+      $(#segundo).css ({"background-color": "red"});
+      $(.segundo).css ({"background-color": "red"});
+
+});
+------------------------------------------------------------------------------------------
+|ejemplo a seguir una function|=
+
+$(document).ready() {
+
+}
+-------------------------------------------------------------------------------------------
+$("h1").hide() ;    (hará que se esconda el paragrhac del h1)
+-------------------------------------------------------------------------------------------
+$(function() {
+
+      $("button").click (function(){
+             alert("hola");
+       });
+});
+-------------------------------------------------------------------------------------------
+|para ucultar y mostrar el paragrhac de nuestro website| =   dblclick(dobleclick)
+
+$(function() {
+
+      $("button").dblclick (function)(){
+             $("#segundo").hide ();
+       });
+
+       $("btn-show").click (function(){
+             $("#segundo").show ();
+       });
+
+});
+----------------------------------------------------------------------------------------------
+|cuando paso el ratón se desaparece el paragrhac|=
+
+$(function() {
+     
+      $(".primer").animate({witdth: "300px"})      (agrega una animation)   
+    
+      $(".primero").mouseenter (function)(){
+             $("#segundo").hide ();
+       });
+
+       $(".primero").mouseleave (function(){
+             $("#segundo").show ();
+       });
+
+});
+
+lo mismo pero sacando "mouseenter y mouseleave" , y agregando "fadeOut y fadeIN" (desaparece con un degradado)
+lo mismo pero ahora con "slideDown y SlideUp" (el paragrhac sale y se esconde)
+----------------------------------------------------------------------------------------------------
+|Function para ver el contenido con un alert|=   Con un "text" or "html"..
+
+$(function() {
+
+      $("#btn-hide").click (function(){
+
+             alert($("#segundo").text());
+
+});
+
+además de "text" y "html" podemos poner "attr("title")" que nos dirá en que parrafo está.
+--------------------------------------------------------------------------------------------------------
+|Para cambiar o agregar contenido |=
+
+$(function() {
+
+      $("#btn-hide").click (function(){
+
+             $("#segundo").text(hola programadores); (cambiaria a "hola programadores")..🙂
+
+});
+
+pero si cambio "text" or "html" por "append" nos agregaría lo que pusimos al final del segundo párrafo.
+si lo queremos al principio con "prepend"; si es depués del párrafo con "after" y si es antes "before".
+
+---------------------------------------------------------------------------------------------------------
+|Function para eliminar el parrafo |=
+
+$(function() {
+
+      $("#btn-hide").click (function(){
+
+             $("#segundo").remove();
+
+});
+
+además del "remove" tenemos el "empty" que es para limpiar/vaciar. 
+---------------------------------------------------------------------------------------------------------
+|Function para añadir una clase|=   /* pues en este caso añade y quita el color del parrafo con 2 botones  */ 
+
+$(function() {
+
+      $("#btn-hide").click (function(){
+
+             $("h1").addClass("red");
+
+     $("#btn-hide").click (function(){
+
+             $("h1").removeClass("red");
+
+}); 
+------------------------------------------------------------------------------------------------------------
+|function para añadir y quitar a la vez|= /* En este caso añadirá y quitara el color a la vez con un solo boton */
+
+$(function() {
+
+      $("#btn-hide").click (function(){
+
+             $("h1").toggleClass("red");
+
+});

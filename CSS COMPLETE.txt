@@ -1,0 +1,91 @@
+
+DEM = (Block Element Modifier)
+nos ayuda a lidiar con los problemas de la especifidad.
+BLOQUE = representan un header,menu,galeria,footer,etc.
+ELEMENT = Forma parte del bloque. ej: menu__item,galeria__img,footer__img,etc.
+MODIFIER = son usados en elementos y bloques , ej: boton--active , header--wave .
+
+selectores =
+
+.listas -lista
+
+.listas + * {
+}
+
+[type] {
+}
+
+[value~="class.com"] 
+[value$="class.com"] 
+[value*="class.com"] 
+
+border-top-right-style=
+border-top-right-style=
+border-top-right-style=
+border-top-right-style=
+
+inherit = heredar 
+shorthand = tipografia (tipo de style).
+
+box-sizing = border-box or content-box.
+
+border style =
+solid(normal) , groove(sobresalir)  ,  dotted(puntos) , double(doble lineas) , dashed(guiones) , ridge().
+
+box-shadow=
+ouffset-x() , oufset-y() , blur(difuminado) , spread(expandir) , color.
+
+font-weight = 
+thin , normal , light , lighter , medium , bold , bolder , semibold , extrabold
+
+
+background-image = url (../img/naruto1.png)
+background-image = linear-gradient (#000 , #f00), url ('imagen.jpg')
+background-repeat = no-repeat ,repeat , repeat-x , repeat-y.
+background-position = top , right , bottom , left , center.
+background-size = 10px ,  cover(cubrir) , contain(ajusta la imagen)
+
+@import url ( ) type of font 
+
+en los tipos svg cuando lo importamos o pegamos debemos poner un preserveAspectRatio="none"
+
+positions =
+static
+relative
+absolute
+fixed  / z-index 
+inherit
+
+font-size =
+
+vh , vw
+em , rem
+px , %
+
+flexbox  or flex-container=
+
+display = flex
+flex-direction = column or row
+justify-content= flex-start , flex-end , space-around ,  space-between , space-evenly  , center | (main axis - eje principal )
+align-items= flex-start , flex-end , baseline , space-around ,  space-between , space-evenly  ,  center | (cross axis)  
+flex-wrap=wrap (lo que hace es mandar el elemento abajo si no quepa en el margen de la pág)
+
+Flex-item = 
+order = 0 ; (este permite cambiar el orden de los elementos)
+flex-grow:0; (datecta los espacios sobrantes y suma los px del espacio sobrante) 
+flex-shrink: 1; (es lo contrario ,se hacen más pequeños depende el valor que le demos)
+flex-basis: 100px;(por defecto define el width o  height,dependiendo el valor de flex-direction)
+align-self: flext-start , flex-end , center , stretch , baseline (te permitirá modificar el primer elemento)
+
+colores =
+
+-0088cc (azul)
+-bb0000 (bordod)
+-55acee (celeste)
+-808080(gray) c0c0c0 800080 808000 ffdead 800000
+
+crimson = carmesi
+teal = verde azulado
+steelblue = azul acero
+tomato 
+silver = plata

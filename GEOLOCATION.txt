@@ -1,0 +1,27 @@
+GEOLOCALIZACIÓN
+
+   - getCurrentPosition ()
+         -parametros (position, error, options)
+         -propiedades de option (enableHightAccuracy, timeout)
+   - watchPosition ()
+
+
+X) Historial
+
+ej:
+
+ const geolocation = navigator.geolocation;
+
+ const posicion = (pos) = {
+          console.log(pos)
+}
+
+ const err () = console.log(e);
+ 
+ const options = {
+           maximumAge : 0,
+           timeout: 3000,
+           enableHightAccuracy: true
+} 
+
+geolocation.getCurrentPosition(posicion,err,options)

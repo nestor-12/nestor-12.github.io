@@ -1,0 +1,152 @@
+type of typing =
+-ttyper
+-GNU typist
+
+type of autocomplete =
+-GitHub Compilot
+-Tabnine
+
+One plus one 
+One minus one
+One by one
+One Divided one
+
+avi Audio Video Interleave intercalar video/audio
+xlsx 
+mp4 media player 4
+adobe acrobat reader
+adobe flash player
+ctrl + alt + e
+ctrl + alt + e    Excel | Wordpad | word | OneNote |Power 
+________________________________
+| %= | **= | += | -= |*=  | /= | 
+|____|_____|____|____|____|____|    
+
+
+select - optg - opt
+
+input type="list" list="pets" - datalist - opt
+
+dl - dt - dd
+
+inputs=
+
+datetime-local
+datetime
+date
+time
+month
+week
+tel
+search
+email
+password
+url
+---------
+color
+number
+range
+reset
+text
+---------
+checkbox
+radio
+select
+---------
+other elements =
+
+fieldset
+legend
+file
+meter
+progress
+textarea
+--------
+placeholder
+required
+readonly
+disabled
+min-max
+min-length
+selected
+autofocus
+--------
+
+| formato de videos que acepta HTML | :D
+
+-svg
+-png
+-jpg
+-gif
+-webp
+
+attribute secret (?) =
+img srcset"url de imagen" alt"logotipo" 
+
+pages =
+
+para sacar fondos = | vectormagic.com |
+para verificar si están bien los códigos en html = | validator.w3.org |
+para copy and paste of ICON = | https://symbolhippo.com/ |   
+
+4 cosas que debo aprender si o si =
+hacer una tabla
+crear un login/form
+crear una calculadora sencilla
+crear una calculadora que parezaca real
+
+div class container
+div class result
+span 0
+div class buttons 
+input 19 
+item clear
+item present sign
+item item3 negative
+9 item item numbers
+4 item 
+
+        
+string boolean object symbol numbers 
+
+snike/camell
+
+let i = 5;
+
+let j = i; result 5
+
+console.log (i);
+console.log (j);
+
+5 | 5 
+
+var name = ivan;
+let nombre= ivan;
+const nombre = ivan;
+const cadena = ['ivan', 'leonel', 'Mateo'];
+const number = [21,21,20]
+
+const operadores = 0;
+
+function add (x, y) {
+   return x + y;
+}
+
+var divisor = 3 / 3
+console.log (divisor) 
+
+var a = 24
+a += 5 or a = a + 5  
+
+console.log (a)
+
+
+for while , do while
+
+
+ 
+const http = require ('http');
+import { math(add(4+3));}
+
+export const math (x, y) = (x + y)
+import and export framework and modules webpack  .js .html

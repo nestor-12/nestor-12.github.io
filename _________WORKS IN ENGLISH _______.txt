@@ -1,0 +1,57 @@
+______WORKS IN ENGLISH ✅______ 
+|                         1                             |
+|_______________________________|
+
+_____|👉PRIMER  ITEM👈|________
+
+|inherit| = heredar  
+|foldback| = plegar
+|shorthand| = tipografia
+|preserveAspectRatio| = preservar  la relación del aspecto
+|waves |= ondas
+|main axis| = eje principal
+|cross axis| = eje transversal
+|space-evenly|= espaciar uniformemente
+|space-around| = espaciar alrededor
+|toggleclass| = alternar clase
+|append| = adjuntar
+|prepend|= anteponer 
+
+--------------------------------------------------------
+
+_____|👉SEGUNDO ITEM👈|_____
+
+|availwidth| = ancho de disponibilidad
+|scheme| = esquema
+|requests| = peticiones/solicitides
+|resources| =  recursos
+|transferred| = transferencias
+|waterfall| = cascada
+|fath| = trayecto/camino
+|summery| = defincion
+|hosting| = alojamiento
+|hoisting| = elevacion
+|mostly| = principalmente
+|lately| = ulitmamente
+|event log| = registro de eventos
+|rendering| = represetacion
+|fretch| = buscar
+|raster| = thread hilo de trama 
+|snippets| = fragmentos
+|spin| = girar
+|pie chart| = grafico circular
+|painting| = cuadro
+|debugging| = depuracion
+|intervals| = intervalos
+
+--------------------------------------------------------
+
+______|👉TERCER  ITEM👈|______
+
+|hover| = flotar
+|placeholder| = marcador de posición 
+||=
+
+
+
+

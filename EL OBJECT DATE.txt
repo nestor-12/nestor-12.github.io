@@ -1,0 +1,26 @@
+EL OBJECT DATE
+-getDate ()
+-getDay ()
+-getMonth ()
+-getYear ()
+-getHours ()
+-getMinutes ()
+-getSeconds ()
+- Ejemplo de uso (Alarma)
+
+los dias y demas parten del 0,1,2,3 y asi..
+el año si estamos en 2023 es 2023 -1900
+
+| EJEMPLO | =
+
+const fecha = new Date(2020,4,12)  donde va el doce cuenta como semana
+console.log(fecha.getYear()+1900);
+console.log(fecha.getMonth());
+console.log(fecha.getDay());
+---------------------------------------
+const fecha = new Date(1000000) cuenta los milisegundos que pasaron desde el 1 de junio de 1970.
+console.log(fecha.getYear()+1900);
+console.log(fecha.getMonth());
+console.log(fecha.getDay());
+
+console.log(Date.now())

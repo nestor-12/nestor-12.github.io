@@ -1,0 +1,47 @@
+pront  imprime un archivo de texto
+
+rd    quita el directorio
+
+pushd     guarda el directorio actual y lo cambia
+
+rem        registra comentarios
+
+ren         cambia el nombre de uno o mas archivos
+rename 
+
+replace   remplaza archivos
+
+label    crea etiqueta
+
+find     busca uno o mas cadenas de texto en un archivo
+findstr
+
+erase   elimina uno o mas archivos
+del
+
+echo       nuestra mensajes o activa y desactiva el eco
+comp     compara contenido
+chcp  muestra o establece el num de paginas
+assoc  muestra o cambia atributos
+
+
+color /?
+dir /q
+type C\:Users\Nestor\Desktop>archivocreado.txt o .doc .xlsx .ppt ...
+shutdown -s -t 3000  (apagar pc)
+copy
+xcopy
+robocopy  
+start firefox
+start explorer
+start iexplore
+start https://www.google.com/search?q=
+diskpart - list disk - select disk "nº" - clean.
+create partition primary - format fs-ntfs - assign
+taskmgr   (administrador de tareas)
+dxdiag     (propiedades del sistema)
+systeminfo (carga info del sistema)
+control (panel de control)
+start ms-settings:home (configuracion)
+devmgmt.msc (administrador de dispositivos) si están en amarillo es porque los controladores no están instalados
+

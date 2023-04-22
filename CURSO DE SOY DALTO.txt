@@ -1,0 +1,129 @@
+|ECMAC | = PRÓXIMA VERSIÓN.
+
+¿QUÉ ES JAVASCRIPT?
+-Lenguaje de programación.
+-Interpretado.
+-Orientado a objetos.
+-Imperativo.
+-Case sensitive (Upper and lower case).
+-Basado en prototipos / instancias / classless.
+-Tipado débil.
+-Lenguaje dinámico.
+
+se identa(ordena) automaticamente 
+se tabula(dejar espacios al principio) automaticamente
+
+1 ) editor de texto :
+
+-Personalizar Sublime Text 3
+                 * Install Package Control
+                 *Set UI
+                 *Color Scheme (Brogrammer).
+                 *LiveReload
+                 *ColorHelper
+                 *ColorPicker
+            -Otras opciones (VSC, Atom).
+
+2) ¿Para qué se usa ?
+
+      -Dinamismo de los sitios web
+      -Servidor en NodeJS
+
+3) Formas de Enlazar JavaScript 
+
+    -En linea
+    -Como contenido en la etiqueta script
+    -Como contenido en un archivo de formato.js
+    -Con un Require
+
+4) Variables 
+
+    -concepto 
+    -Ejemplo
+    -Tipos de Datos: String (Cadena de texto), Number,Boolean,Symbol.
+(IMG)
+    -Casos especiales de Datos: Undefined, Null,Nan, 
+    -Scope 
+   -Hoisting
+   -Tipos de variables (Let, var y const)
+   -Crear multiples variables (separandolas con coma)
+   -Pruebas con Prompt
+
+5) Operadores en JavaScript 
+ 
+   -Operadores de asignación
+
+   asignacion                           x   -   y
+   de adiccion                          x +=  y
+   de sustraccion                    x  -=  y
+   de multiplicacion               x *=  y
+   de division                           x  /=  y
+   de resto                                x %= y  te muestra el resto de una division
+   de exponenciacion            x **= y elevado a la 2 
+
+   -Operadores aritméticos 
+
+6) Concatenar 
+
+-Definición y ejemplo
+-con el signo +
+-Para numeros forzamos string ("" + 9 + 4)
+-con Concat
+-con backtiks y la variable entre ${ } 
+
+funcion "concat" somo funciona si hay un string..
+
+numero1= "53";
+numero2= 8;
+
+frase = numero1.concat(numero2)
+
+document write (frase)
+
+funcion "backtiks" 
+
+nombre = "lucas dalto";
+frase= "soy ${nombre} y estoy caminando;
+  
+document.write(frase);
+
+7) backtikcs (Bloquote o Acento Grave) y Escape
+
+     -Definicion
+     -escape de comillas simples
+      -escape de comillas dobles
+
+8) Operadores (Intercambio)
+------------------------------------------
+    -operadores lógicos
+equalifly        |a == b| 
+inequalifly    | a != b|
+identity          |a === b|
+Non-identity |a !== b|
+Greater than |a > b|
+Greater than or equal | a >= b |
+Less than  |a < b|
+Less than or equal  |a <= b|
+
+! el contrario
+!= distinto
+------------------------------------------
+    -operadores de comparación 
+AND &&
+OR ||
+NOT ! 
+-------------------------------------------    
+9) Camel Case 
+  
+   -Definicion
+   -Usos  
+   -Ejemplo
+
+hace que la segunda palabra sea en mayúscula ej,"decimeAlgoPorfa"
+
+10) Condicionales :
+   
+    -Definicion
+    -If
+    -Else If
+    -Else

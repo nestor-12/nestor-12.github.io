@@ -1,0 +1,10 @@
+tail -1 -2 -3 (ultimas lineas )
+head 1 2  3 (primeras lineas)
+shotwell "nombre de img" (para abrir una imagen)
+
+|GZIP| =
+gzip ivan.jpg         (comprimir)
+ls -lh                     (mostrar)
+gzip -k ivan.jpg     (conserva ambos archivos)
+ls ivan.jpg.gz        (mostrara el comprimido)
+gzip -d ivan.jpg.gz (borrara el comprimido)

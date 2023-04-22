@@ -1,0 +1,14 @@
+conceptos básicos de POO
+ -clase  =tabla tiene un constructor
+ -objeto  =lo que conlleva los valores y contiene ciertas herramientas
+ -Atributo = valores
+ -Metodo  = herramientas
+ -Constructor = construye a ese objeto
+ -Instanciación = es cuando ya está terminada la clase
+
+
+abstraccion = sintetiza  las cosas
+modularidad  = lo resuelve por parte
+encapsulamiento = los datos son privados 
+poliformismo  = el comportamiento del objeto
+

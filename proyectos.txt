@@ -1,0 +1,58 @@
+#GENERADOR DE CONTRASEÑAS FULL MAX 2023
+def generator_contraseña (num):
+      chars = "abcdefghi"
+      num_entero = srt (num) 
+      num = int (num_entero[0])
+      c1 = num - 2
+      c2 = num
+      c3 = num - 5
+      contraseña = f"{chars[cp1]}{chars[cp1]}{chars[cp1]}{num*2}"
+      return contraseña
+
+password,number = generator_contraseña(1)
+frase1 = f"the new password is: {password}"
+frase2 = f"number utilice: {number} "
+print(frase1)
+print(frase2)
+
+#FUNCTION SALUDAR XD 
+def saludar (nombre,sexo):
+      sexo = sexo.lower()
+      if(sexo == "hombre"):
+      adjetivo = "crack"
+      elif(sexo == "mujer"):
+      adjetivo = "genia"
+      else: 
+      adjetivo = "no definido"
+      
+       print(f'hola {nombre}, eres {}') 
+saludar("Ivan" , "hombre") 
+
+   const cambiarTamaño = tamaño = {
+ document.querySelector(".text").style.fontSize= `{temaño}px`;
+}
+    12px = cambiarTamaño(12)
+    14px = cambiarTamaño(14)
+    16px = cambiarTamaño(16)
+   
+    document.querySelector.(".t12").addEventListener("click",12px)
+    document.querySelector.(".t14").addEventListener("click",14px)
+    document.querySelector.(".t16").addEventListener("click",16px)
+
+#DATE ACTUALIZAR HORA 
+  const actualizarHora = () = {
+          const time = Date();
+          let hora= time.getHours ();
+          let minutos = time.getMinutes ();
+          let segundos = time.getSeconds ();
+          document.querySelector(".hora").textContent = hora;
+          document.querySelector(".min").textContent = min;
+          document.querySelector(".seg").textContent = seg;
+ } 
+
+actualizarHora();
+  
+setInterval (actualizarHora,1000);
+
+
+ 

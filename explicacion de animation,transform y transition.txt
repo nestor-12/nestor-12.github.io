@@ -1,0 +1,93 @@
+display:grid
+grid-template-column: 10px auto repeat(5,10%) or repeat(5,1fr)
+grid-template-rows: 10px auto repeat(5,10%) or repeat(5,1fr)
+grid-auto-rows: 100px
+grid-template-areas "elemento 1 "
+column-gap: 10px
+row-gap: 10px
+grid-column 
+grid-row
+grid-area: element 1 
+
+tmb en grid-template-column:repeat(auto-fit, minmax(250px,1fr))
+el "auto fit calcula los espacios disponibles para crear columnas o filas"
+
+
+transition-properties: all;   (o algun selector en especifico)
+transition-properties: background , transform , opacity;   | etc...
+transition-duration: 300ms;
+transition-timing-function: easy;   define la curva de aceleracion de la transicion del estado incial y final
+por defecto está ease que disminuye la velocidad al final,tmb está "ease-in"(empieza lento y va aumentando) y "ease-in-out" y "ease-out".
+transition-delay:1000ms (tarda en comenzar)
+
+transform: translate (100%, 100%)  scale(1.3)  rotate (80deg);
+
+order (que es para cambiar el orden de los elementos)
+objetc-fit : cover ; (es para que la imagen no pierda resolution)
+outline (es para darle un contorno al box or container) |enmarcar
+cursor: url (../img) (podemos personalizarlo con imagenes de 60 de ancho y 56 de largo)
+el de la fecha para el *{}  y el de la manita para los links.. a{} ..!!
+opacity (es para opacar la imagen)
+backdrop-filter: blur(4px) (le daremos un fondo de filtro difuminado de 4px)
+clip-path: var(--clippy)  de la variable --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%):    | para que no se vea
+--clippy: polygon(0 0, 100% 0, 100% 100%, 0% 100%):  |para que se vea
+
+    con control + shift + m (entras al dispositivo de celus inspeccion)
+
+|ANIMATION|
+
+@keyframes (hay 2)
+.from
+.to
+.0%
+.100%
+
+animation-name: change-color  (nombre de la variable)
+animation-duration:2s or 1,4s (lo que quieras)
+animation-timing-function:ease; (tambien están "ease-in" , "ease-in-out" , "ease-out" y "linear" ).
+animation-iteration-count: 2,infinite ; (las veces que queramos que se repita)
+animation-direction: normal,alternative; (define desde que punto queremos que parta la animación) 
+animation-delay: 1000ms; (tiempo de delay)
+animation-fill-mode: none,forwards,backwards,both ; (define lo que pasará antes de que se ejecute)
+luego para pausar la animacion debemos poner=
+.box:hover {
+    animation-play-state: paused;
+}
+
+@keyframes change-color {
+       from{
+             width:250px
+             background: blue;     
+        }
+       to{
+            width:300px
+            background: rebeccapurple; 
+   }
+}
+------------------------------------------------------------
+ @keyframes change-color{
+  0%{
+       transform: scaleY(1);
+   }
+  20%{
+       transform: scaleY(1.2);
+   }
+   33%{
+       transform: scaleY(2);
+   }
+   57%{
+       transform: scaleY(1.5);
+   }
+   100%{
+       transform: scaleY(2.3);
+   }
+} 
+
+lo mismo con translate() y rotate().
+
+translate  scale rotate deg rad grad turn
+transform-origin: top right bottom left
+
+the design were created to the following widths:
+- mobile : 375px
+- desktop : 1440px

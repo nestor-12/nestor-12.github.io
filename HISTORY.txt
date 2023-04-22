@@ -1,0 +1,22 @@
+HISTORIAL
+
+ -back  () (vuelve atras)
+  ej: console.log(history.back()) 
+---------------------------------------
+ -forward () (va hacia adelante)
+ ej: console.log(history.forward()) 
+----------------------------------------
+ -tamaño del historial
+ -go () (va al sitio indicado con un número relativo)
+ ej: console.log(history.go(-1))  como parametro puede ser depende la pág, con 0 recarga la pág
+----------------------------------------
+ -pushState () (modifica la URL y conserva la info)
+history.pushState({nombre:"pedro"},"","?jaja)
+#AGREGA EL "jaja" AL FINAL
+----------------------------------------
+ -propiedad state y evento popstate
+addEventListener("popstate",(e) => 
+      console.log(e.state)
+})
+#AGREGA UN NOMBRE AL STATE
+ -replaceState (modifica la URL y no la conserva)

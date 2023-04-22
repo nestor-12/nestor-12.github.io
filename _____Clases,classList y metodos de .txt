@@ -1,0 +1,56 @@
+_____Clases,classList y metodos de classList______
+
+  Definición y usos
+- add ( )
+- remove ( )
+- item ( )
+- contains ( )
+- replace ( )
+- toggle ( )
+
+____obtención y modificacion de elementos____
+
+-textContent - devuelve el texto de cualquier nodo.
+-innerText - devuelve el texto visible de un node element.
+-outerText - devuelve el texto que de las etiquetas html incluidas las etiquetas.
+
+-innerHTML -devuelve el contenido html de un elemento.
+-outerHTML - devuelve el código html completo del elemento.
+
+________creación de elementos______
+
+   -createElement ( )
+   -createTextNode ( )
+   -appendChild ( )
+   -createDocumentFregment ( )
+
+________obtención y modificación de child ( hijos )_________
+
+ -firtstChild
+ -lastChild
+ -firtsElementChild 
+ -lastElementChild
+ -childNodes
+ -children
+
+________metodos de child ( hijos )_________
+
+ -replaceChild ( )
+ -removeChild ( )
+ -hasChildNodes ( ) 
+
+________propiedades y parents ( padres )_________
+
+ -parentElement
+ -parentNode
+
+________propiedades de siblings ( hermanos )_________
+
+ -nextSibling
+ -previousSibling
+ -nextElementSibling
+ -previousElementSibling
+
+________Nodos - Extras_________
+
+ -closes ( )

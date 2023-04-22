@@ -1,0 +1,106 @@
+SQL (STRUTURED QUERY LANGUAGE)
+
+SGBS (SISTEMA GESTOR DE BASE DE DATOS)
+
+//DESCARGAR XAMPP
+//ACTIVAR 
+
+DML (DATE MANIPULATION LANGUAGE)   
+  
+-INSERT
+-UPDATE
+-DELETE
+-SELECT
+
+
+DDL (DATE DEFINITION LANGUAGE)
+
+-CREATE
+-DROP
+-ALTER
+
+EXAMPLES : 
+
+(1)_ CREATE TABLE Productos (
+
+ID int ;
+Nombre Varchar (100) ;
+Cantidad int ;
+Precio ;
+
+)
+
+-------------------------------
+
+(2)_ ALTER FROM Productos values (1,Hard Disk,3,3000)
+   Alter FROM Productos values (2,Micro Proccesor,2,3778)
+   Alter FROM Productos values (3,Memori RAM,4,2070)
+
+--------------------------------
+
+(3)_ UPDATE Productos SET nombre="Memory SD" WHERE ID=2 ;
+
+--------------------------------
+
+(4)_ DROP From productos WHERE ID=3 ;
+
+--------------------------------
+
+(5)_ SELECT Cantidad Precio FROM productos WHERE ID=1 
+     SELECT Cantidad Precio FROM productos WHERE ID>3 
+
+     SELECT * FROM Productos
+     
+     SELECT ID Precio Cantidad Nombre Cantidad*Precio AS Total FROM Productos    
+
+
+
+EXCEL/LIBRE OFFICE EXCEL 
+
+'NOMBRE'
+
+
+
+
+
+hypervisor nivel 1
+
+-hyper-v ESXi 8
+-Xen
+-Citrix Xenserver
+-microsoft hyper-v server
+
+hypervisor nivel 2
+
+-Oracle
+-Vm
+-VirtualBox
+-VMware Workstation Pro 1.7 y player 1.7 
+-VMware vSphere
+
+
+
+Code Editors : 
+
+-Froala
+-UltraEdit
+-Visual Studio Code
+-Notepad++
+-Sublime text
+-Vim
+-Komodo edit
+-Atom
+-light table
+-Bleachit
+-Netbeans
+-Bracket
+
+GPU
+FPS
+JPG
+GIF
+CCTL
+
+
+
+

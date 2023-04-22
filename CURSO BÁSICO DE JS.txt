@@ -1,0 +1,210 @@
+/*
+undefined, null, string, boolean, symbol, number y objebt
+*/
+
+snike-camel
+
+nameIvan (nomenclatura estandar) en Mayuscula method de separar  WORDS  
+         
+// Sensible a MAYÚSCULAS Y MINÚSCULAS
+
+el | = | es el operador de asignación.  xampp es acronimo (x) incluyendo APACHE,MYSQL,PHP Y PERL. 
+
+var a = 5;
+var b = a;
+                                           
+cociente = 3 / 0;                          
+console.log(cociente);                   
+                                             
+result = Infinity                           
+Código | Resultado
+
+\' comilla simple
+\" comilla doble
+\\ barra invertida
+\n línea nueva
+\r retorno de carro
+\t tabulación
+\b retroceso
+\f salto de página
+'''
+*/
+-----------------
+|Concatenar cadenas de caracteres|=
+
+var nombreCompleto = "Ivan" + " Marchese"; | "Ivan", " ", "Marchese";
+console.log(nombreCompleto); 
+-----------------
+|concatenar variables|=
+
+var verbo = "programar";
+
+var mensaje = "Estoy aprendiendo a " + verbo + " con freeCodeCamp"
+-----------------
+|agregar variables a cadenas de caracteres|=
+
+var mensajeCompleto = "Estoy aprendiendo a programar";
+
+var parteFinal = "freeCodeCamp";
+
+console.log (mensajeCompleto);
+
+mensajeCompleto += parteFinal;
+-----------------
+||=
+
+var miCadena;
+
+miCadena = "A B";
+
+console.log(miCadena.length); valor=3 porque cuenta el espacio tmb.
+-----------------
+|Notación de corchetes:Primer caracter|=
+
+// Cadena:  J a v a S c r i p t
+// Índices: 0 1 2 3 4 5 6 7 8 9
+ 
+var lenguajeDeProgramacion = "JavaScript";
+console.log(lenguajeDeProgramacion[0]);  accede al Índice 0
+-----------------
+|Inmutabilidad de Cadenas|=
+
+var miCadena = "Jola, Mundo";
+console.log(miCadena);
+
+miCadena[0] = "H"; cambiamos el primer caracter del Índice 0 //Error (va a saltar error)
+miCadena = "Hola, Mundo";
+console.log(miCadena);
+-----------------
+|Notación de corchetes:Caracteres Individuales|=
+
+var miCadena = "JavaScript";
+
+console.log(miCadena[0]); // J
+console.log(miCadena[1]); // a
+console.log(miCadena[2]); // v
+console.log(miCadena[3]); // a
+console.log(miCadena[4]); // s 
+console.log(miCadena[5]); // c
+console.log(miCadena[6]); // r
+console.log(miCadena[7]); // i
+console.log(miCadena[8]); // p 
+console.log(miCadena[9]); // t
+----------------- 
+|Notación de corchetes:Último caracter|=
+
+var miCadena = "JavaScript";
+console.log(miCadena[miCadena.length -1]); t 
+-----------------
+|Notación de corchetes:De Derecha a Izquierda|=
+
+var miCadena = "JavaScript";
+console.log(miCadena[miCadena.length -2]); p
+console.log(miCadena[miCadena.length -3]); i
+console.log(miCadena[miCadena.length -4]); r
+console.log(miCadena[miCadena.length -n]); para conseguir el enesimo caracter de nuestra cadena.
+-----------------
+|Palabras en blanco|=
+
+var miSustantivo = "perro";
+var miAdjetivo = "negro";
+var miverbo = "corrió";
+var miAdverbio = "rapidamente";
+
+/*Concatenar las cadenas para que muestren un mensaje*/
+
+var palabrasEnBlanco = "El " + miSustantivo + " " + miAdjetivo + " " + miVerbo + " " + miAdberbio + " a la tienda";
+console.log(palabrasEnBlanco);
+-----------------
+|Arreglos (Arrays)|=
+
+varr miArreglo = ["John", 24];
+console.log(miArreglo);
+
+varr estudiantes = ["John", "Gino", "Emily", "Juan"];
+console.log(estudiantes);
+
+varr notas = [95, 67, 89, 56];
+console.log(notas);
+-----------------
+|Arreglos anidados|= /*elementos individuales*/
+
+var listaDeEstudiates = [["Nora", 97], ["Gino", 78]];
+console.log(listaDeEstudiantes);
+
+var listaDeProductos = [["Nora", 5.67, "S134"], ["Celular", 250, "S356"] ["Zapatos", 36.7, "S678"]];
+console.log(listaDeProductos);
+
+var datos = [[3.4, 5.6, 3.2], [6.7, 4.5, 7.8], [5.6, 3.4, 7.8]];
+console.log(datos);
+/*podemos acceder a ellos como una estructura de datos o agrupación.
+-----------------
+|Acceder a los elementos de un arreglo|=
+
+var miArreglo = [10, 20, 30];
+
+console.log(miArreglo[0]); // 10
+console.log(miArreglo[1]); // 20
+console.log(miArreglo[2]); // 30
+
+si queremos sumarlos:
+var suma = miArreglo[0] + miArreglo[1] + miArreglo[2];
+-----------------
+|Modificar elementos de un arreglo|=
+
+var miArreglo = [10, 20, 30];
+miArreglo[0] = 40;
+console.log(miArreglo);
+
+una cadena:
+var miArreglo = [10, 20, 30];
+miArreglo[0] = "Hola";
+console.log(miArreglo);
+
+un arreglo:
+var miArreglo = [10, 20, 30];
+miArreglo[0] = [1, 2, 3];
+console.log(miArreglo); y cómo resultado qda un arreglo anidado
+asi | [10, [1, 2, 3], 30]
+-----------------
+|Acceder al Indice interno|=
+
+var NumberList = [[1,2,3], [4,5,6], [7,8,9]];
+
+/*
+Cadena =            [1,2,3] [4,5,6] [7,8,9]
+Indices =              0       1       2
+Indices Internos =   0 1 2   0 1 2   0 1 2
+*/
+
+console.log (NumberList[0][1]);
+-----------------
+|.push()| = (AÑADIR/EMPUJAR UN ELEMENTO)
+
+var estaciones = ["Invierno"], ["Otoño"], ["Primevera"];
+estaciones.push("Verano");
+console.log(estaciones);      
+-----------------
+|.pop()|= (REMOVER ÚLTIMO ELEMENTO)
+
+var estaciones = ["Invierno", "Otoño"; "Primera"; "Verano"];
+estaciones.pop();  (pop es un method)
+console.log(estaciones);
+-----------------
+|.shift()|= (REMOVER PRIMER ELEMENTO)
+
+var estaciones = ["Invierno", "Otoño"; "Primavera"; "Verano"];
+estaciones.shift();
+console.log(estaciones);
+-----------------
+|.unshift()|= (AGREGAR AL PRINCIPIO UN ELEMENTO)
+
+["Invierno", "Otoño", "Primavera"];
+estaciones.unshift("Verano");
+console.log(estaciones);  //agregar al principio del arreglo
+-----------------
+|Lista de compras|=
+
+var miListaDeCompras = [["cereal", 2], ["leche", 3], ["galletas", 4]];
+console.log("Voy a comprar " + miListaDeCompras[0][1] + " unidades de " + miListaDeCompras[0][0] + ".");
+-----------------

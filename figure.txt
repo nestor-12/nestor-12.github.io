@@ -1,0 +1,32 @@
+<figure>
+        <img src="assets/naruto1.png" alt="logotipo" srcset="../assets/naruto1.png" height="300px" width="300px">
+        <figcaption>Naruto Shipudden &copy; 2023</figcaption>
+    </figure>
+
+    <figure>
+        <img src="assets/naruto2.png" alt="logotipo" srcset="../assets/naruto2.png" height="300px" width="300px">
+        <figcaption>Naruto Shipudden &copy; 2023</figcaption>
+    </figure>
+
+    <figure>
+        <img src="assets/naruto3.png" alt="logotipo" srcset="../assets/naruto3.png" height="300px" width="300px">
+        <figcaption>Naruto Shipudden &copy; 2023</figcaption>
+    </figure>
+
+-----------------------------------------------------
+
+  <style>
+        img {
+            width: 200px;
+        }
+    </style>
+    
+    <picture>
+        <source srcset="../assets/naruto3.png" media="(min-width:500px)">
+
+        <img src="assets/naruto1.png" alt="logotipo">
+    </picture>
+
+https://htmlreference.io/element/figure/  🪟|nos dice la info.. de c/tag | ..
+favicon.io 🪟 |para convertir imagenes en formato .ico|..
+

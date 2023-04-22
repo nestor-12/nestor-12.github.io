@@ -1,0 +1,21 @@
+/*
+undefined, null, string, boolean, symbol, number y objebt
+*/
+
+snike-camel
+
+nameIvan (nomenclatura estandar) en Mayuscula method de separar  WORDS
+
+// Sensible a MAYÚSCULAS Y MINÚSCULAS
+
+el | = | es el operador de asignación.
+
+var a = 5;
+var b = a;
+
+cociente = 3 / 0;
+console.log(cociente);
+
+result = Infinity
+-----------------
+

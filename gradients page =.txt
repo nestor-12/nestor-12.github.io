@@ -1,0 +1,49 @@
+gradients page =
+app.haikei.app
+font-family = ubuntu
+
+svg scalable vector graphic 
+pci paraphel component interconect
+seo search enginer optimation
+api aplication programation interfaces
+GMT GRENDWITCH MAIN TIME
+
+tree of computing jeje
+there is to have much information in the class to put in the book or notebook haha
+
+LocalStorage and SessionStorage
+-En el localStorage la info queda
+-En el sessionStorage la info desaparece
+diferencias
+setItem ()
+getItem ()
+removeItem ()
+clear ()
+ejemplo de uso (idioma)
+
+#LOCALSTORAGE
+localStorage.setItem("nombre","pedro");
+console.log(localStorage)
+console.log(localStorage.getItem("volume))
+
+#SESSIONSTORAGE
+sessionStorage.setItem("nombre" ,"pedrovich");
+console.log(localStorage);
+let nombre =  sessionStorage.getItem("nombre");
+console.log(nombre)
+
+#a los 2 segundos se borra de la consola
+sessionStorage.setItem("nombre" ,"pedrovich");
+console.log(localStorage);
+setTimeout (() = {
+let nombre = sessionStorage.removeItem("nombre");
+},2000)
+
+#a los 2 segundos se borra todo 
+
+ console.log(localStorage)
+
+setTimeout(() = {
+  let nombre = localStorage.clear();
+},2000)
+}

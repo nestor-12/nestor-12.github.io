@@ -1,0 +1,19 @@
+|________Metodos________|
+
+setAttribute ( ) - Modifica el valor de un atributo.
+getAtribute ( ) - Obtiene el valor de un atributo. 
+removeAttribute ( ) - Elimina el valor de un atributo.
+
+
+|_____Atributos globales____|
+
+- class - lista de clases del elemento separadas por espacios.
+- contendedtable - indica si el elemento puede ser modificable por el usuario (bool).
+- dir - indica la direccionalidad del texto.
+- hidden - indica si el elemento aún no es , o ya no es , relevante.
+- id - define un identificador único.
+- style - contiene declaraciones de estilo CSS para ser aplicadas al elemento.
+- tebindex - indica si el elemento puede obtener un focus de input.
+- title - contiene un texto con información relacionada al elemento al que pertenece.
+
+
